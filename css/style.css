@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #0f0f0f;
+    color: white;
+}
+
+/* ===== HEADER SUPERIOR ===== */
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* centra el título */
+    padding: 25px 40px;
+    position: relative;
+	margin-bottom: 40px;
+}
+
+/* Título centrado */
+.top-bar h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 28px;
+    margin: 0;
+    color: #00ff66;
+    text-shadow: 0 0 15px rgba(0,255,102,0.7);
+    letter-spacing: 2px;
+}
+
+/* Estilo compartido fecha y reloj */
+#date,
+#clock {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    color: #00ff66;
+    text-shadow: 0 0 10px rgba(0,255,102,0.6);
+}
+
+/* Reloj a la izquierda */
+#clock {
+    left: 40px;
+}
+
+/* Fecha a la derecha */
+#date {
+    right: 40px;
+}
+
+/* ===== CONTENIDO ===== */
+
+.group {
+    padding: 20px 40px;
+}
+
+.group-title {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #00ff66;
+    border-bottom: 2px solid rgba(0,255,102,0.4);
+    padding-bottom: 8px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 18px;
+}
+
+.card {
+    background-color: #1a1a1a;
+    border: 1px solid #00ff66;
+    border-radius: 12px;
+    padding: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(0,255,102,0.15);
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0 20px rgba(0,255,102,0.6);
+}
+
+.card img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.card span {
+    display: block;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.divider {
+    height: 1px;
+    background: linear-gradient(to right, transparent, #00ff66, transparent);
+    margin: 30px 40px;
+}
+
+/* ===== ICONO FALLBACK CON INICIAL ===== */
+
+.icon-wrapper {
+    width: 42px;
+    height: 42px;
+    margin: 0 auto 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fallback-icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: #00ff66;
+    color: #0f0f0f;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 12px rgba(0,255,102,0.7);
+}
+
+/* ===== BOTON ABRIR GRUPO ===== */
+
+.open-group {
+    background-color: #111;
+    border: 1px dashed #00ff66;
+    color: #00ff66;
+    font-weight: bold;
+}
+
+.open-group:hover {
+    background-color: #00ff66;
+    color: #0f0f0f;
+    box-shadow: 0 0 25px rgba(0,255,102,0.8);
+}
