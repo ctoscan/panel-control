@@ -106,6 +106,7 @@ const customImages = {
 "Sistema Compras": "https://img.freepik.com/vetores-premium/icone-de-compras_933463-63538.jpg",
 "Metricas": "https://www.empleosit.com.ar/files/pictures/Logo-Lemondata.png",
 "AGIP Producción": "https://cca.org.ar/wp-content/uploads/2020/04/agip.png"
+"Portal Lemon": "https://media.licdn.com/dms/image/v2/C4E0BAQGDaoEzwjWpBQ/company-logo_200_200/company-logo_200_200/0/1630594415856/lemondata_4_logo?e=2147483647&v=beta&t=TwX9H0YbLr7Mti1r27cQq71XsswhpJJdJpJ6mT_ysQM",
 };
 
 // ===============================
@@ -243,4 +244,5 @@ function updateClock() {
 setInterval(updateClock, 1000);
 
 updateClock();
+
 
