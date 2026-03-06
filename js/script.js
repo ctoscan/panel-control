@@ -56,7 +56,7 @@ links: [
 title: "Lemondata",
 links: [
 { name: "Metricas", url: "http://apps.lemondata.com.ar:9090/ords/r/estadisticas/portal_de_metricas/login" },
-{ name: "Portal Lemon", url: "http://portal.lemondata.com.ar" },
+{ name: "Portal Lemon", url: "http://portal.lemondata.com.ar/" },
 { name: "SGC 2.0", url: "https://170.78.75.194:10443/!/#lemondata.com.ar" },
 { name: "Swagger UI", url: "http://10.32.2.62:5000/index.html" },
 { name: "BaeHost", url: "https://vcloud3.baehost.com/login/" },
@@ -243,3 +243,4 @@ function updateClock() {
 setInterval(updateClock, 1000);
 
 updateClock();
+
